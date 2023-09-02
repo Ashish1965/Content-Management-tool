@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>static file access</title>
+</head>
+<body>
+    <h1>hello in this we access static file</h1>
+    <img src="{{ url_for('static', filename='4.jpg')}}" alt="error">
+    <!-- <img src="static/4.jpg" alt=""> -->
+</body>
+</html>
